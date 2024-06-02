@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale" />
+    <title>Web Scraping Design</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,700;1,100;1,200;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"
+      integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/a292ad52f0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo3.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Explore how much you can save.</h1>
+        <p>
+          Confused from which site to get your favourite Apple products from?
+          Let us help.
+        </p>
+        <div class="container">
+          <form autocomplete="off" class="search-bar">
+            <input
+              type="text"
+              placeholder="Search any Apple product"
+              name="q"
+              id="search"
+            />
+            <button id="search-button" type="submit">
+              <img src="images/search1.png" />
+            </button>
+          </form>
+        </div>
+      </div>  
+    </section>
+    <div id="product-cards" class="product-cards">
+    </div>
+
+    <!----Javascript for Toggle Menu---->
+    <script>
+      var navLinks = document.getElementById('navLinks');
+      function showMenu() {
+        navLinks.style.right = '0';
+      }
+      function hideMenu() {
+        navLinks.style.right = '-200px';
+      }
+    </script>
+      <script src="./index.js" ></script>
+  </body>
+</html>

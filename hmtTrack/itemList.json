@@ -1,0 +1,52 @@
+[
+  {
+    "item": "iPhone 14",
+    "links": [
+      "https://www.amazon.in/Apple-iPhone-14-128GB-Midnight/dp/B0BDHX8Z63",
+      "https://www.flipkart.com/apple-iphone-14-midnight-128-gb/p/itm9e6293c322a84",
+      "https://www.amazon.in/Apple-iPhone-14-128GB-Blue/dp/B0BDK62PDX",
+      "https://www.flipkart.com/apple-iphone-14-blue-128-gb/p/itmdb77f40da6b6d",
+      "https://www.amazon.in/Apple-iPhone-14-128GB-Purple/dp/B0BDJ213TX",
+      "https://www.flipkart.com/apple-iphone-14-purple-128-gb/p/itm0b581eba85e08",
+      "https://www.amazon.in/Apple-iPhone-14-128GB-Purple/dp/B0BXQ2V3NJ",
+      "https://www.flipkart.com/apple-iphone-14-yellow-128-gb/p/itmaa0785520dd68",
+      "https://www.amazon.in/Apple-iPhone-14-128GB-Purple/dp/B0BDK8LKPJ",
+      "https://www.flipkart.com/apple-iphone-14-starlight-128-gb/p/itm3485a56f6e676"  
+    ]
+  },
+  {
+    "item": "iPhone 14 Pro",
+    "links": [
+      "https://www.amazon.in/Apple-iPhone-128GB-Deep-Purple/dp/B0BDJ6ZMCC",
+      "https://www.flipkart.com/apple-iphone-14-pro-deep-purple-128-gb/p/itm75f73f63239",
+      "https://www.amazon.in/Apple-iPhone-Pro-128GB-Gold/dp/B0BDJBGBF3",
+      "https://www.flipkart.com/apple-iphone-14-pro-gold-128-gb/p/itme5895e593585d"
+
+    ]
+  },
+  {
+    "item": "iPhone 13",
+    "links": [
+      "https://www.amazon.in/Apple-iPhone-13-Mini-512GB/dp/B09G997HJP",
+      "https://www.flipkart.com/apple-iphone-13-mini-pink-512-gb/p/itm56980f8bb46c6"
+    ]
+  },
+  {
+    "item": "Macbook 2022",
+    "links": [
+      "https://www.amazon.in/2022-Apple-MacBook-Laptop-chip/dp/B0B3C6FBPF",
+      "https://www.flipkart.com/apple-2022-macbook-air-m2-8-gb-256-gb-ssd-mac-os-monterey-mly13hn-a/p/itmc4339d2e58810",
+      "https://www.amazon.in/2022-Apple-MacBook-Laptop-chip/dp/B0B3BQ11LP",
+      "https://www.flipkart.com/apple-2022-macbook-air-m2-8-gb-256-gb-ssd-mac-os-monterey-mlxw3hn-a/p/itm9da65ee831fac"
+    ]
+
+  },
+  {
+    "item": "Macbook",
+    "links": [
+      "https://www.amazon.in/Apple-MacBook-Chip-13-inch-256GB/dp/B08N5T6CZ6",
+      "https://www.flipkart.com/apple-2020-macbook-air-m1-8-gb-256-gb-ssd-mac-os-big-sur-mgn63hn-a/p/itmde54f026889ce"
+    ]
+
+  }
+]

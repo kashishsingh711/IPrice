@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale">
+	<title>Web Scraping Design</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,700;1,100;1,200;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/a292ad52f0.js" crossorigin="anonymous"></script>
+</head>
+</body>
+	<section class="contact">
+		<nav>
+			<a href="index.html"><img src="images/logo3.png" ></a>
+			<div class="nav-links" id="navLinks">
+			<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			
+			<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<div class="row">
+			<div class="contact-col">
+				<h1>Contact us.</h1>
+				<div>
+					<i class="fa fa-home"></i>
+					<span>
+						<h5>KIIT University</h5>
+						<p>Bhubaneshwar, Orissa, IN</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<span>
+						<h5>+91 9189472085</h5>
+						<p>Monday to Saturday, 10AM to 6PM</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-envelope-o"></i>
+					<span>
+						<h5>info@kiit.ac.in</h5>
+						<p>Email us your query</p>
+					</span>
+				</div>
+			</div>
+			<div class="contact-col">
+				<form action="">
+					<input type="text" placeholder="Enter your name" required>
+					<input type="email" placeholder="Enter your email address" required>
+					<input type="text" placeholder="Enter your number">
+					<textarea rows="8" placeholder="Message" required></textarea>
+					<button type="submit">Send</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+</body>
+</html>

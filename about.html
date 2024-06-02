@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale">
+	<title>Web Scraping Design</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,700;1,100;1,200;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="link rel="stylesheet href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/a292ad52f0.js" crossorigin="anonymous"></script>
+</head>
+</body>
+	<section class="about">
+		<nav>
+			<a href="index.html"><img src="images/logo3.png" ></a>
+			<div class="nav-links" id="navLinks">
+			<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			
+			<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+		</nav>
+      	<div class="row">
+			<div class="col">
+				<h1>About us.</h1>
+				<p>Welcome to iPrice, the ultimate site for finding the best prices on the latest gadgets. Our website is designed to help you save time and money when shopping for your favourite Apple products, including iphones, iPad, Macbook, and more.</p>
+			</div>
+			
+			<div class="col">
+				<div class="card card1">
+					<div class="layer">
+						<h3>Iphones</h3>
+					</div>
+				</div>
+				<div class="card card2">
+					<div class="layer">
+						<h3>Ipads</h3>
+					</div>
+				</div>
+				<div class="card card3">
+					<div class="layer">
+						<h3>Macbooks</h3>
+					</div>
+				</div>
+				<div class="card card4">
+					<div class="layer">
+						<h3>Accesories</h3>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+	</section>
+
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+</body>
+</html>
