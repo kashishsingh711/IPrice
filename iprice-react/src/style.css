@@ -12,73 +12,92 @@
 }
 .product-cards {
   width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
   background-color: #f6f6f6;
-  background-position: center;
-  background-size: cover;
-  /* position: absolute; */
+  padding: 60px 5% 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+@keyframes cardIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .apple {
-  width: 600px;
-  height: 200px;
-  display: inline-flex;
-  border-radius: 15px;
-  padding: 10px 0px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+  padding: 20px;
   box-sizing: border-box;
-  cursor: pointer;
-  margin: 15px 15px;
-  transition: transform 0.5s;
+  cursor: default;
   background-color: #1f1f1f;
-  background-position: center;
-  background-size: cover;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: cardIn 0.4s ease both;
+}
+.apple:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+.apple-top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.apple img {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 12px;
+  background-color: #fff;
+  flex-shrink: 0;
+}
+.apple-title {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.apple-meta {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #a8a8a8;
+  text-transform: capitalize;
+}
+.apple-prices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
 }
 .apple-col {
   text-transform: capitalize;
   text-decoration: none;
-  width: 180px;
-  height: 50px;
-  align-items: center;
-  /* display: flex; */
-  margin-top: 5px;
-  margin-bottom: 10px;
-  margin-left: 30px;
-  border-radius: 15px;
+  flex: 1 1 130px;
+  padding: 10px 12px;
+  border-radius: 12px;
   box-sizing: border-box;
   background-color: #f6f6f6;
-}
-.apple h3 {
-  font-size: 18px;
-  color: #fff;
-  padding: 15px 15px;
-  font-weight: 500;
-}
-.apple h4 {
-  margin-top: 10px;
-  font-size: 20px;
-  padding: 15px 15px;
-  color: #fff;
-  font-weight: 600;
+  text-align: center;
 }
 .apple-col h5 {
-  font-size: 20px;
-  text-align: center;
-  margin-top: 3px;
+  font-size: 18px;
+  margin: 0;
   color: #000000;
-  font-weight: 600;
+  font-weight: 700;
 }
 .apple-col p {
   font-size: 12px;
-  text-align: center;
-  margin-top: 3px;
+  margin-top: 4px;
   color: #000000;
-}
-.apple img {
-  width: 150px;
-  height: 170px;
-  padding: 5px 5px;
-  border-radius: 15px;
-}
-.apple:hover {
-  transform: translateY(-10%);
 }
 nav {
   display: flex;
@@ -207,38 +226,35 @@ nav .fa-solid {
   .nav-links ul {
     padding: 30px;
   }
-  .about {
-    flex-direction: column;
-  }
 }
 
 /*----about----*/
 .about {
-  width: 100%;
-  background-color: #f6f6f6;
-  background-position: center;
-  background-size: cover;
-  margin: relative;
+    width: 100%;
+    background-color: #f6f6f6;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-left: 5rem
 }
 .row {
   display: flex;
-  height: 88%;
   align-items: center;
   flex-basis: 48%;
+  margin-bottom: 30px;
 }
 .col {
-  flex-basis: 50%;
+  flex-basis: 70%;
+  margin-left: 15px;
 }
 .about h1 {
   font-size: 70px;
   color: #000000;
   margin-top: 140px;
-  margin-left: 70px;
 }
 .about p {
   color: #000000;
   line-height: 22px;
-  margin-left: 70px;
   margin-right: 20px;
   text-align: left;
   font-size: 15px;

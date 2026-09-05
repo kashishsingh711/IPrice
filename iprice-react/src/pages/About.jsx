@@ -23,7 +23,7 @@ function About() {
                         </p>
                     </div>
                 </div>
-                <div className="col">
+                <div className="row">
                     {categories.map((cat) => (
                         <AboutCard
                             key={cat.title}

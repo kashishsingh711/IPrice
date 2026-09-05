@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import Layout from '../components/Layout.jsx'
 import ProductCard from '../components/ProductCard.jsx'
 import { useProducts } from '../hooks/useProducts.js'
@@ -7,11 +7,20 @@ function Home() {
     const { products, loading, error } = useProducts();
     const [searchTerm, setSearchTerm] = useState('');
     const [appliedTerm, setAppliedTerm] = useState('');
+    const resultsRef = useRef(null);
 
     const handleSearch = (e) => {
         e.preventDefault();
         setAppliedTerm(searchTerm);
     }
+
+    // Runs after `appliedTerm` changes (i.e. after a real search submit) —
+    // not on the initial mount, since appliedTerm starts as '' (falsy).
+    useEffect(() => {
+        if (appliedTerm && resultsRef.current) {
+            resultsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    }, [appliedTerm]);
 
     const results = appliedTerm ? 
         products.filter(product => product.title.toLowerCase().includes(appliedTerm.toLowerCase()))
@@ -43,7 +52,7 @@ function Home() {
                     </div>
                 </div>  
             </section>
-            <div className="product-cards">
+            <div className="product-cards" ref={resultsRef}>
                 {loading && <p style={{ textAlign: 'center'}}> Loading products...</p>}
                 {error && <p style={{textAlign: 'center', color: 'crimson'}}> Error: {error}</p>}
                 {!loading && !error &&
