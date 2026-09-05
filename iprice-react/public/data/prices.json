@@ -1,0 +1,245 @@
+[
+    {
+        "title": "iPhone 14",
+        "itemList": [
+            {
+                "colorSize": "Midnight 128 GB",
+                "color": "Midnight",
+                "size": "128 GB",
+                "image": "https://m.media-amazon.com/images/I/61cwywLZR-L._SL1500_.jpg",
+                "info": [
+                    {
+                        "link": "https://www.amazon.in/Apple-iPhone-14-128GB-Midnight/dp/B0BDHX8Z63",
+                        "site": "amazon",
+                        "price": "1,01,999"
+                    },
+                    {
+                        "link": "https://www.flipkart.com/apple-iphone-14-midnight-128-gb/p/itm9e6293c322a84",
+                        "site": "flipkart",
+                        "price": "70,999"
+                    }
+                ]
+            },
+            {
+                "colorSize": "Blue 128 GB",
+                "color": "Blue",
+                "size": "128 GB",
+                "image": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SX679_.jpg",
+                "info": [
+                    {
+                        "link": "https://www.amazon.in/Apple-iPhone-14-128GB-Blue/dp/B0BDK62PDX",
+                        "site": "amazon",
+                        "price": "1,01,999"
+                    },
+                    {
+                        "link": "https://www.flipkart.com/apple-iphone-14-blue-128-gb/p/itmdb77f40da6b6d",
+                        "site": "flipkart",
+                        "price": "70,999"
+                    }
+                ]
+            },
+            {
+                "colorSize": "Purple 128 GB",
+                "color": "Purple",
+                "size": "128 GB",
+                "image": "https://m.media-amazon.com/images/I/619f09kK7tL._SX679_.jpg",
+                "info": [
+                    {
+                        "link": "https://www.amazon.in/Apple-iPhone-14-128GB-Purple/dp/B0BDJ213TX",
+                        "site": "amazon",
+                        "price": "73,999"
+                    },
+                    {
+                        "link": "https://www.flipkart.com/apple-iphone-14-purple-128-gb/p/itm0b581eba85e08",
+                        "site": "flipkart",
+                        "price": "73,999"
+                    }
+                ]
+            },
+            {
+                "colorSize": "Yellow 128 GB",
+                "color": "Yellow",
+                "size": "128 GB",
+                "image": "https://m.media-amazon.com/images/I/61WAINtWPPL._SX679_.jpg",
+                "info": [
+                    {
+                        "link": "https://www.amazon.in/Apple-iPhone-14-128GB-Purple/dp/B0BXQ2V3NJ",
+                        "site": "amazon",
+                        "price": "73,999"
+                    },
+                    {
+                        "link": "https://www.flipkart.com/apple-iphone-14-yellow-128-gb/p/itmaa0785520dd68",
+                        "site": "flipkart",
+                        "price": "73,999"
+                    }
+                ]
+            },
+            {
+                "colorSize": "Starlight 128 GB",
+                "color": "Starlight",
+                "size": "128 GB",
+                "image": "https://m.media-amazon.com/images/I/618Bb+QzCmL._SX679_.jpg",
+                "info": [
+                    {
+                        "link": "https://www.amazon.in/Apple-iPhone-14-128GB-Purple/dp/B0BDK8LKPJ",
+                        "site": "amazon",
+                        "price": "71,999"
+                    },
+                    {
+                        "link": "https://www.flipkart.com/apple-iphone-14-starlight-128-gb/p/itm3485a56f6e676",
+                        "site": "flipkart",
+                        "price": "71,999"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Airpods",
+        "itemList": [
+            {
+                "colorSize": "White True Wireless",
+                "color": "White",
+                "size": "True Wireless",
+                "image": "https://m.media-amazon.com/images/I/61SUj2aKoEL._SL1500_.jpg",
+                "info": [
+                    {
+                        "link": "https://www.amazon.in/Apple-AirPods-Pro-2nd-Generation/dp/B0BDKD8DVD/ref=sr_1_1_sspa?crid=3BXZWON79DBHV&keywords=airpods&qid=1683104410&sprefix=airpod%2Caps%2C330&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+                        "site": "amazon",
+                        "price": "26,900"
+                    },
+                    {
+                        "link": "https://www.flipkart.com/apple-airpods-pro-2nd-generation-bluetooth-headset/p/itmbfc083335b35c",
+                        "site": "flipkart",
+                        "price": "26,900"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "iPhone 14 Pro",
+        "itemList": [
+            {
+                "colorSize": " ",
+                "color": "",
+                "size": "",
+                "image": "https://m.media-amazon.com/images/I/61HHS0HrjpL._SL1500_.jpg",
+                "info": [
+                    {
+                        "link": "https://www.amazon.in/Apple-iPhone-128GB-Deep-Purple/dp/B0BDJ6ZMCC",
+                        "site": "amazon",
+                        "price": "1,39,900"
+                    },
+                    {
+                        "link": "https://www.amazon.in/Apple-iPhone-Pro-128GB-Gold/dp/B0BDJBGBF3",
+                        "site": "amazon",
+                        "price": "1,69,999"
+                    }
+                ]
+            },
+            {
+                "colorSize": "Gold 128 GB",
+                "color": "Gold",
+                "size": "128 GB",
+                "image": "https://m.media-amazon.com/images/I/71ZDY57yTQL._SX679_.jpg",
+                "info": [
+                    {
+                        "link": "https://www.flipkart.com/apple-iphone-14-pro-gold-128-gb/p/itme5895e593585d",
+                        "site": "flipkart",
+                        "price": "1,19,999"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Macbook 2022",
+        "itemList": [
+            {
+                "colorSize": "8 GB/256 GB SSD/Mac OS Monterey) MLY13HN/A\u00a0\u00a0(13.6 Inch Starlight, 1.24 kg",
+                "color": "8 GB/256 GB SSD/Mac OS Monterey) MLY13HN/A\u00a0\u00a0(13.6 Inch",
+                "size": "Starlight, 1.24 kg",
+                "info": [
+                    {
+                        "link": "https://www.flipkart.com/apple-2022-macbook-air-m2-8-gb-256-gb-ssd-mac-os-monterey-mly13hn-a/p/itmc4339d2e58810",
+                        "site": "flipkart",
+                        "price": "1,05,490"
+                    }
+                ]
+            },
+            {
+                "colorSize": " ",
+                "color": "",
+                "size": "",
+                "image": "https://m.media-amazon.com/images/I/71f5Eu5lJSL._SL1500_.jpg",
+                "info": [
+                    {
+                        "link": "https://www.amazon.in/2022-Apple-MacBook-Laptop-chip/dp/B0B3BQ11LP",
+                        "site": "amazon",
+                        "price": "1,05,490"
+                    }
+                ]
+            },
+            {
+                "colorSize": "8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A\u00a0\u00a0(13.6 Inch Space Grey, 1.24 Kg",
+                "color": "8 GB/256 GB SSD/Mac OS Monterey) MLXW3HN/A\u00a0\u00a0(13.6 Inch",
+                "size": "Space Grey, 1.24 Kg",
+                "info": [
+                    {
+                        "link": "https://www.flipkart.com/apple-2022-macbook-air-m2-8-gb-256-gb-ssd-mac-os-monterey-mlxw3hn-a/p/itm9da65ee831fac",
+                        "site": "flipkart",
+                        "price": "1,05,490"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Macbook",
+        "itemList": [
+            {
+                "colorSize": "8 GB/256 GB SSD/Mac OS Big Sur) MGN63HN/A\u00a0\u00a0(13.3 inch Space Grey, 1.29 kg",
+                "color": "8 GB/256 GB SSD/Mac OS Big Sur) MGN63HN/A\u00a0\u00a0(13.3 inch",
+                "size": "Space Grey, 1.29 kg",
+                "info": [
+                    {
+                        "link": "https://www.flipkart.com/apple-2020-macbook-air-m1-8-gb-256-gb-ssd-mac-os-big-sur-mgn63hn-a/p/itmde54f026889ce",
+                        "site": "flipkart",
+                        "price": "79,990"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "iPhone 13",
+        "itemList": [
+            {
+                "colorSize": " ",
+                "color": "",
+                "size": "",
+                "image": "https://m.media-amazon.com/images/I/61nPiOOv9BL._SL1500_.jpg",
+                "info": [
+                    {
+                        "link": "https://www.amazon.in/Apple-iPhone-13-Mini-512GB/dp/B09G997HJP",
+                        "site": "amazon",
+                        "price": "89,999"
+                    }
+                ]
+            },
+            {
+                "colorSize": "Pink 512 GB",
+                "color": "Pink",
+                "size": "512 GB",
+                "info": [
+                    {
+                        "link": "https://www.flipkart.com/apple-iphone-13-mini-pink-512-gb/p/itm56980f8bb46c6",
+                        "site": "flipkart",
+                        "price": "89,999"
+                    }
+                ]
+            }
+        ]
+    }
+]
